@@ -20,7 +20,6 @@ libraryDependencies ++= Seq (
   avro.core,
   typesafe.config,
   kafka.core,
-  java8compat.core,
   _test(finch.test),
   _test(scalatest.core)
 )

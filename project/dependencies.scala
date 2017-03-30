@@ -20,15 +20,10 @@ object dependencies {
     val avro = "1.8.1"
     val typesafe = "1.3.1"
     val kafka = "0.10.2.0"
-    val java8compat = "0.8.0"
     object twitter {
       val server  = "1.27.0"
       val finagle = "6.42.0"
     }
-  }
-
-  object java8compat {
-    val core = "org.scala-lang.modules" %% "scala-java8-compat" % versions.java8compat
   }
 
   object kafka {
